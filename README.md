@@ -1,9 +1,6 @@
-```
-
-```
-
-
-# Blackjack Project
+> ![image](https://user-images.githubusercontent.com/69976409/195754514-06dcba6c-7ea4-42da-a3d8-8f334194c1f8.png)
+# Blackjack Project :game_die:
+#### A Data Science Approach to Blackjack by Jack Johnson & Kelsey Peltz
 <details open="open">
 <summary>Table of Contents</summary>
 
@@ -31,6 +28,14 @@ We have set up a google colab to work on our code together. Since we are partner
 ## ETL 
 
 ### (Extract, Transform, and Load)
+```python
+import pandas as pd 
+import numpy as np
+import re
+strategies_df = pd.read_csv(r'Lblackjack_strategies.csv')
+strategies_df.head()
+```
+
 
 ### Dependencies
 
