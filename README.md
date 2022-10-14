@@ -35,3 +35,4 @@ import re
 strategies_df = pd.read_csv(r'Lblackjack_strategies.csv')
 strategies_df.head()
 ```
+https://github.com/kelseypeltz/Black-Jack-Project/issues/2#issue-1408892578
